@@ -1,5 +1,3 @@
-# First-try
-this repository is my first, and l begin to learn git&amp;github by myself. My Mentor and Buddy are both cool and warm-hearted ma. Fighting!!!
 本文旨在给第一次使用 git 和 github 的同学提供快速的学习指引，分享我在学习中用到的资源及我对每一个步骤的个人理解。本文基于 Ubuntu 18.04 LTS 系统环境安装git。这是我的第一篇博文，给自己打气！思远  Fighting ！
 
 # Git入门与实践
@@ -54,7 +52,8 @@ Git命令均是在本地执行，若想要开源则需要将数据放到其他�
 
 2. 点击 **create repository** 按照指示新建个人仓库，创建完后如下图所示。
 
-![image-20201016113702625](/home/fangsiyuan/.config/Typora/typora-user-images/image-20201016113702625.png)
+<img src="/home/fangsiyuan/.config/Typora/typora-user-images/image-20201015153541159.png" alt="image-20201015153541159" style="zoom:150%;" />
+
 
 
 ## 提取、推送到远程仓库
@@ -77,7 +76,18 @@ git remote add origin <server>
 
 > 分支是用来将特性开发绝缘开来的。在你创建仓库的时候，*master* 是“默认的”分支。在其他分支上进行开发，完成后再将它们合并到主分支上。
 
-在我的理解里，正是分支的存在让一个不断迭代的应用或者说仓库可以有序的、有迹可循的多人协作开发，不同的分支体现了不同版本的迭代过程且最后统一到master上。
+在我的理解里，正是分支的存在让一个不断迭代的应用或者仓库可以有序的、有迹可循的多人协作开发，不同的分支体现了不同版本的迭代过程且最后统一到master上。
 
 ![img](https://www.runoob.com/manual/git-guide/img/branches.png)
 
+通常在本地仓库可对分支进行以下指令操作：
+
+```shell
+git checkout -b feature_x                   #创建叫feature_x的分支，并切换过去 
+git checkout master                         #切换回主分支（branch）
+git branch -d feature_x                     #删除叫feature_x的分支
+git push origin <branch>                    #将分支推送到远端仓库
+```
+
+
+以上就是反子弹之弟对于git的学习路线，欢迎交流沟通~
