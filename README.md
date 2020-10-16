@@ -54,8 +54,7 @@ Git命令均是在本地执行，若想要开源则需要将数据放到其他�
 
 2. 点击 **create repository** 按照指示新建个人仓库，创建完后如下图所示。
 
-<img src="/home/fangsiyuan/.config/Typora/typora-user-images/image-20201015153541159.png" alt="image-20201015153541159" style="zoom:150%;" />
-
+![image-20201016113702625](/home/fangsiyuan/.config/Typora/typora-user-images/image-20201016113702625.png)
 
 
 ## 提取、推送到远程仓库
